@@ -1,0 +1,17 @@
+# https://github.com/github/gitignore/blob/master/Global/JetBrains.gitignore
+
+# User-specific stuff:
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
+
+# Gradle:
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# IntelliJ
+/out/
+
+# Other
+/build
+.gradle
