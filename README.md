@@ -22,6 +22,18 @@ By default application will work at: `http://localhost:8080/`
 Request example: `http://localhost:8080/getInfo?phone=70000000000`
 where `70000000000` is phone what you want get information about.
 
+## Input & Output
+Input:
+* phone
+
+Output (`ContactInfo` instance):
+* phone registered state
+* user id
+* first name
+* last name
+* username
+* big photo
+
 ## Telegram API configuration
 You should set your own Telegram API key and hash in `TelegramClientWrapper.java`:
 ```
